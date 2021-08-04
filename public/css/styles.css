@@ -58,7 +58,19 @@ main img{
     width: 95vw;
 }
 article p{
+    width: 110px;
     color:#03264C;
+    background-color:white;
+    border:1px solid #ebebeb;
+    margin:0px auto;
+}
+main section p{
+    width: 110px;
+    color:#03264C;
+    background-color:white;
+    border: 5px solid #ebebeb;
+    margin:0px auto;
+    font-size: 15px;
 }
 footer {
     width: 1100px;
