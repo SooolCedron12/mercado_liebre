@@ -1,7 +1,7 @@
 {
-  "name": "mercadoliebre",
+  "name": "mercado_liebre",
   "version": "1.0.0",
-  "description": "",
+  "description": "Amarillo: #EAC926;\r Azul: #03264C;\r Celeste: #1259c3;\r Gris oscuro: #666;\r Gris claro: #ebebeb;\r Verde: #39b54a;",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/SooolCedron12/mercado_liebre.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
