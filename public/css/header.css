@@ -1,44 +1,147 @@
-
 header{
     background-color: #EAC926;
+    padding: 30px 20px 20px 20px;
     color : #000
  }
 
-header{
+	
+
+a {
+    text-decoration: none;
+    color: #000;
+    width: 10px;
+}
+ /* n a v e g a c i o n */
+header .logo-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo-nav .logo{
+    margin-left: 10px;
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+/*buscar p, marca*/
+header .nav-buscador{
+    width: 66%;
+    margin-left: 37px;
+}
+
+/* COMPRA EN COUTAS*/
+header p.hand{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+#container-nav{
+    display: flex;
+    justify-content: space-between ;
+
+}
+/* L I mostrador */
+.li-1{
+    margin-right: 11px;
+}
+.li-2{
+    margin-left: 11px;
+}
+.li-3{
+    margin-left: 30px;
+}
+.li-4{
+    margin-left: 30px;
+}
+/* L I ingresar */
+.li-5{
+    margin-right: 60px;
+}
+.li-6{
+    margin-right: 30px;
+}
+
+
+
+
+/*nav ul.mostrador {
+    justify-content: flex-end;
+}
+
+
+ /*header{
     height: 46.5vh;
     width:98.8vw ;
-} 
-header img{
+} */
+/*header .logo-nav 
+header nav{
+    display: none;
+}*/
+header nav ul .mostrador{
+    margin: 20px 0;
+    color: #000;
+}
+header nav ul .ingresar{
+    margin: 20px 0;
+}
+/*header img{
     width: 320px;
     position: relative;
     margin-left: 30px;
     margin-block-start: 21px;
-}
+}*/
 header a.searchBar{
     margin-left: 15px;
     background-color: white;
     border: 1px solid #000;
 }
+header.nav-buscador .lupa{
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    flex-grow: 1px;
+}
+
+/* BUSCAR PRODUCTOS Y ...*/
 input{
-    margin-left: 25px;
+    width: 80%;
 }
 header a.btn-lupa{
     background-color: white;
     border: 1px solid #000;
 }
-header a.btn-barra{
-    width: 20px;
-    padding: 5px;
-    background-color:  #1259c3;
-    display: block;
-    color: #ebebeb;
-    font-size: 15px;
-    margin: 0 auto;
+/*boton de barra*/
+
+.btn-barra{
     text-align: center;
-    border-radius: 15%  ;
+    background-color: var(--Celeste);
+    color: white;
+    width: 19px;
+    margin-left: 45%;
+    
+
+    
+}
+header #boton-barra i{
+    font-size: 12px;
+    color: var(--GrisClaro);
+    margin-top: 25px; 
+    padding: 4px;
+    border-radius: 10%;
+    background-color:var(--Celeste);
+    margin-left: 45%;
 }
 
-header p.hand{
+button.lupa{
+    width: 15%;
+    background-color: white;
+    color: var(--GrisClaro);
+    margin-left: -3px;
+
+}
+
+
+/*header p.hand{
     margin-right: 20px;
     color:#000;
     text-align: center;
@@ -48,13 +151,58 @@ header a.btn-login{
     color: #000;
     padding:20px;
     order: 100px;
-}
+}*/
 
-/*mobile*/
-/*@media screen and (min-width: 480px) {
-    header{
-        background-color: #EAC926;
-        color : #000;
-        width: 220px;
+/* Tablet y Desktop */
+@media(min-width: 768px){
+    header  nav {
+        display: flex; 
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-between;;
+    }
+    header .logo-nav .logo{
+
+        width: 32%;
+    }
+    header .logo-nav .nav-buscador{
+        width: 82%;
+    }
+    header p.hand{
+        width: 32%;
+    }
+    #container-nav{
+        display: flex;
+        justify-content: space-between ;
+    
+    }
+    /* L I mostrador */
+    .li-1{
+        margin-right: 11px;
+    }
+    .li-2{
+        margin-left: 11px;
+    }
+    .li-3{
+        margin-left: 30px;
+    }
+    .li-4{
+        margin-left: 30px;
+    }
+    /* L I ingresar */
+    .li-5{
+        margin-right: 60px;
+    }
+    .li-6{
+        margin-right: 30px;
+    }
+
+    #boton-barra{
+        display: none;
+    }
+    header a.btn-barra i{
+        display: none;
     }
 }
+

@@ -1,26 +1,10 @@
 @import url('./footer.css');
 @import url('./header.css');
+@import url('./general.css');
 @import url('./home.css'); 
+@import url('./formularios.css');
+@import url('./login.css');
 
-@media screen and (min-width: 480px) and (max-width: 1360px) {
-    header{
-        background-color: #EAC926;
-    color : #000;
-}
-}
 
-@media screen and (min-width: 767px) and (max-width: 780px) {
-    header{
-        background-color: #EAC926;
-    color : #000;
-    }
-}
-
-@media screen and (min-width: 950px) {
-    header{
-        background-color: #EAC926;
-    color : #000;
-    }
-}
     
  

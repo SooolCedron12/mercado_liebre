@@ -1,17 +1,24 @@
 footer {
-    width: 1100px;
+    width: 100%;
     margin: 0px auto;
     background-color:white;
     border: 1px solid #ebebeb;
    text-align: center;
 }
+
 footer p.Copyright{
     text-align: left;
-    margin-left: 14px;
+   
 }
-footer i.fas{
+footer #container-footer i:hover{
+    color: var(--Azul);
+}
+footer #container-footer i{
     color: #1259c3;
     font-size: 2em;
+    margin-bottom: 10px;
+    transition: color ease .5s;
+    margin-top: 15px;
 }
 section .scroll{
     margin-block-start: 10px;
@@ -27,5 +34,20 @@ section .scroll{
     line-height: 110px;
     text-align: center;
     background-color: white;
- 
+}
+
+@media(min-width: 1024px){
+    footer #container-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer #container-footer section{
+        width: 33%;
+        padding: 0 25px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
 }

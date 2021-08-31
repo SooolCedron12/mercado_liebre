@@ -1,0 +1,46 @@
+/*var(--Amarillo)*/
+:root{
+    --Amarillo: #EAC926; 
+    --Azul: #03264c;
+    --Celeste: #1259c3;
+    --GrisOscuro:#666;
+
+    --GrisClaro: lightgray;
+    --Verde: #39b54a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'roboto' , sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 12px;
+    background-color: var(--GrisClaro);
+}
+
+li {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.btn-celeste{
+    background-color: var(--Celeste);
+    transition: backgroud-color linear .3s ;
+}
+.btn-celeste:hover{
+    background-color:#0022AA;
+    
+}

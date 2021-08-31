@@ -1,25 +1,108 @@
-body {
-    background-color: #ebebeb; 
-    margin: 0%;
-    color: #666 ;
+.home main {
+    width: 90%;
+    margin: 0 auto;
+}
+.home main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
-a {
-    text-decoration: none;
-    color: #000;
-    width: 10px;
+.home main section h4{
+    width: 100%;
+    text-align: left;
+    color: var(--GrisOscuro);
+    text-transform: capitalize;
+    font-size: 20px;
 }
-li {
-    list-style:none;
-    padding: 0;
-	margin-left:-28px ;
+.home main section article {
+    margin: 10px 0;
+    background-color: white;
+    transition: all ease .3s;
 }
-main .pictures1{
-    height: 32vh;
-    width:98.8vw ;    
+.home main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
-article p{
+/*  I */
+.home main section article .productos i{
+    color: var(--Verde);
+    display: block;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    transition: all ease .3s;
+    margin-top: -27px;
+}
+.home main section article:hover .productos i{
+    box-shadow: 0 0 5px var(--Verde);
+    transform: rotate(360deg);
+
+}
+
+.home main section article .productos{
+    border-top: 1px solid var(--GrisClaro);
+    padding: 15px;
+    position: relative;
+}
+ 
+.home main section article .productos .precio-descuento{
+    display: flex;
+    font-size: 19px;
+}
+
+
+
+.home main section article .productos .precio{
+    font-size: 18px;
+    flex-grow: 0.3;
+}
+
+.home main section article .productos .descuentos{
+    font-size: 16px;
+    color: var(--Verde);
+    flex-grow: 0.7;
+}
+
+.home main section article .productos .marcas{
+    height: 0;
+    transition: all ease .3s;
+    overflow: hidden;
+    color: var(--GrisOscuro);
+    font-size: 16px;
+}
+.home main section article:hover .productos  .marcas{
+    height: 20px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .home main section article {
+       
+        width: 40%;
+    }   
+    .home main section article .productos .marcas{
+        display: block;
+    }
+}
+
+@media(min-width: 1024px){
+    .home main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
+
+}
+}
+
+
+
+
+
+/*article p{
     width: 110px;
     color:#03264C;
     background-color:white;
@@ -27,12 +110,11 @@ article p{
     margin:0px auto;
     display: block;   
 }
-h2{
-    text-align: center;
-}
+
  section main article.pro{
     width:90vw;
-} article .pro{
+} 
+article .pro{
     width:90%;
     display: inline-block 10px;
     border-top: 1px solid #ebebeb;
@@ -48,17 +130,9 @@ main section p{
     border: 5px solid #ebebeb;
     margin:0px auto;
     
-}
-section .img-p{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 335px;
-    height: 257px;
-    margin-inline-start: 15.67px;
-    margin-left: 553px;
-    border: 51px solid white;
-    height: 348px;
-}
-section .marcas{
+}*/
+
+/*section .marcas{
     color: #666;
 }
 section .fa-credit-card {
@@ -70,11 +144,7 @@ section .descuento{
 }
 section .fa-truck{
     color: #39b54a;
-    text-align: center;
-    /*margin-left: 32.5%;*/
-    margin-right: 50%;
     margin-left: 32.5%;
-    height: 9px;
     margin-block-start: 25px;
     font-size: 1.5em;
     
@@ -84,6 +154,6 @@ h3{
     font-size: 1.5em;
 }
 
- 
+
 
 

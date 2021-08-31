@@ -1,0 +1,203 @@
+.register-login .contenedor{
+    width: 90%;
+    margin:  0 auto;
+    max-width: 375px;   
+}
+.register-login .contenedor h1{
+    text-align: center;
+    margin: 25px 0;
+}
+.register-login .contenedor .container-input{
+    display: flex;
+    margin: 20px 0;
+}
+.register-login .contenedor #radius{
+    display: flex;
+}
+.register-login .contenedor #radius2{
+    display: flex;
+}
+.register-login .intereses{
+    margin-bottom: 15px;
+}
+
+.register-login #intereses-check  .check1{
+    margin-top: 5px;
+}
+
+.register-login .contenedor #radius input .radio.check{
+    border-radius: 50%;
+    display: flex;
+}
+.register-login .contenedor .container-input .radio{
+    margin: 0 20px;
+}
+
+.register-login .contenedor  .radio .check{
+    margin: 15px;
+    border-radius: 50%;
+    display: flex;
+}
+#intereses-check{
+    columns: reverse;
+}
+ input,
+ button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+input.fullname{
+    width: 100%;
+
+}
+header  nav {
+    display: none;
+    
+}
+.register-login .contenedor .container-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.register-login .contenedor .container-buttons button{
+    color: white;
+    max-width: 30%;
+
+}
+
+.btn-rojo{
+    background-color: red;
+    max-width: 30%;
+}
+.btn-azul{
+    background-color: var(--Celeste);
+}
+
+
+/* L O G I N */
+.login .contenedor{
+    width: 100%;
+    margin:  0 auto;
+    max-width: 450px;   
+}
+.login h3{
+    font-size: 26px;
+}
+
+.login .contenedor h3{
+    text-align: center;
+    margin: 42px 0;
+}
+.login .contenedor .container-input{
+    display: flex;
+    margin: 50px 0;
+    
+}
+
+.login .contenedor .container-input1 .fullname1{
+    margin-bottom: 40px;
+}
+.login .contenedor .container-buttons{
+    margin-bottom: 15px;
+
+}
+.btn-a{
+    background-color: var(--Celeste);
+    color: #fff;
+    margin-bottom: 279px;
+}
+h3.faceUse{
+    margin-bottom: 23px;
+}
+#radius .radio{
+    margin-top: 0px;
+    margin-left: -273px;
+}
+#radius .radio2{
+    margin-left: 68px;
+    margin-bottom: 13px;
+}
+#radius2 .radio3{
+    margin-left: -162px;
+    margin-bottom: 20px;
+    margin-top: -27px;
+}
+#radius2 .radio4{
+    margin-top: -26px;
+}
+/* I N T E E R E S E S C H E C K S */
+#intereses-check .check{
+    margin-top: 5px;
+    margin-left: -152px;
+    margin-bottom: 28px;
+}
+#intereses-check .check1-2{
+    margin-left: -155px;
+}
+/* inte check2 */
+#intereses-check2 .check2-1{
+    margin-top: 5px;
+    margin-left: 72px;
+}
+#intereses-check2 .check2-2{
+    margin-left: -258px;
+    margin-bottom: 30px;
+}
+/* inte check3 */
+#intereses-check3 .check3-1{
+    margin-top: 5px;
+    margin-left: -153px;
+    margin-bottom: 30px;
+}
+#intereses-check3 .check3-2{
+    margin-left: -155px;
+    margin-bottom: 30px;
+}
+/* inte check4 */
+#intereses-check4 .check4-1{
+    margin-top: 5px;
+    margin-left: -153px;
+    margin-bottom: 30px;
+}
+#intereses-check4 .check4-2{
+    margin-left: -155px;
+}
+/* inte check5 */
+#intereses-check5 .check5-1{
+    margin-top: 5px;
+    margin-left: -153px;
+    margin-bottom: 30px;
+}
+#intereses-check5 .check5-2{
+    margin-left: -155px;
+}
+
+
+
+@media(min-width: 768px){
+    header  nav {
+        display: flex;
+        
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-between;;
+    }
+    header .logo-nav .logo{
+
+        width: 15%;
+    }
+    header .logo-nav .nav-buscador{
+        width: 70%;
+        margin-left: 35px;
+    }
+    header p.hand{
+        width: 32%;
+    }
+
+    .btn-barra{
+        display: none;
+    }
+}
